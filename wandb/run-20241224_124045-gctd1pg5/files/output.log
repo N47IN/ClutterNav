@@ -1,0 +1,21 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: -91.36
+----------------------------------------
+Test Episodes: 10, Avg. Reward: -167.26
+----------------------------------------
+Episode: 2, total numsteps: 40, episode steps: 24, reward: -201.43
+----------------------------------------
+Test Episodes: 10, Avg. Reward: -129.35
+----------------------------------------
+Episode: 3, total numsteps: 56, episode steps: 16, reward: -87.18
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_sac.py", line 137, in <module>
+    next_state, reward, done, _ = env.step(action)
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 190, in step
+    p.stepSimulation()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_sac.py", line 137, in <module>
+    next_state, reward, done, _ = env.step(action)
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 190, in step
+    p.stepSimulation()
+KeyboardInterrupt

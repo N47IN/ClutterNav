@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "agent5_sac.py", line 107, in <module>
+    next_state, reward, done, _ = env.step(action)  # Step
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 177, in step
+    if np.nan(global_features.any()):
+TypeError: 'float' object is not callable
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "agent5_sac.py", line 107, in <module>
+    next_state, reward, done, _ = env.step(action)  # Step
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 177, in step
+    if np.nan(global_features.any()):
+TypeError: 'float' object is not callable

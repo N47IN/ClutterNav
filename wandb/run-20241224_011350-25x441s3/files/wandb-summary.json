@@ -1,0 +1,1 @@
+{"loss/critic_1":1.768181324005127,"loss/critic_2":1.434741497039795,"_wandb":{"runtime":37519},"_timestamp":1.7350205496456826e+09,"loss/entropy_loss":-4.688830375671387,"_runtime":37519.689133467,"entropy_temperature/alpha":5.581106442205689e-15,"loss/policy":8.806659698486328,"reward/train":-245.26998881244225,"_step":114571}

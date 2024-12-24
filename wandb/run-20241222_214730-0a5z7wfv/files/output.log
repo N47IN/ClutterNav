@@ -1,0 +1,478 @@
+1 False
+2 False
+3 False
+4 False
+5 False
+6 False
+7 False
+8 False
+9 False
+10 False
+11 False
+12 False
+13 False
+14 False
+15 False
+16 True
+Episode: 1, total numsteps: 16, episode steps: 16, reward: 13
+17 False
+18 False
+19 False
+20 False
+21 False
+22 False
+23 False
+24 False
+25 False
+26 False
+27 False
+28 False
+29 False
+30 False
+31 False
+32 False
+33 False
+34 False
+35 False
+36 False
+37 False
+38 False
+39 False
+40 False
+41 False
+42 False
+43 False
+44 True
+Episode: 2, total numsteps: 44, episode steps: 28, reward: -72
+45 False
+46 False
+47 False
+48 False
+49 False
+50 False
+51 False
+52 False
+53 False
+54 False
+55 False
+56 False
+57 False
+58 False
+59 False
+60 False
+61 False
+62 False
+63 False
+64 False
+65 False
+66 False
+67 False
+68 False
+69 False
+70 True
+Episode: 3, total numsteps: 70, episode steps: 26, reward: -48
+71 False
+72 False
+73 False
+74 False
+75 False
+76 False
+77 False
+78 False
+79 False
+80 False
+81 False
+82 False
+83 True
+Episode: 4, total numsteps: 83, episode steps: 13, reward: 15
+84 False
+85 False
+86 False
+87 False
+88 False
+89 False
+90 False
+91 False
+92 False
+93 False
+94 False
+95 False
+96 False
+97 False
+98 False
+99 False
+100 False
+101 False
+102 False
+103 False
+104 False
+105 False
+106 False
+107 True
+Episode: 5, total numsteps: 107, episode steps: 24, reward: -78
+108 False
+109 False
+110 False
+111 False
+112 False
+113 False
+114 False
+115 False
+116 False
+117 False
+118 False
+119 False
+120 False
+121 False
+122 False
+123 False
+124 True
+Episode: 6, total numsteps: 124, episode steps: 17, reward: -17
+125 False
+126 False
+127 False
+128 False
+129 False
+130 False
+131 False
+132 False
+133 False
+134 False
+135 False
+136 False
+137 False
+138 False
+139 False
+140 False
+141 False
+142 False
+143 False
+144 False
+145 False
+146 False
+147 False
+148 False
+149 True
+Episode: 7, total numsteps: 149, episode steps: 25, reward: -59
+150 False
+151 False
+152 False
+153 False
+154 False
+155 False
+156 False
+157 False
+158 True
+Episode: 8, total numsteps: 158, episode steps: 9, reward: -71
+159 False
+160 False
+161 False
+162 False
+163 False
+164 False
+165 False
+166 True
+Episode: 9, total numsteps: 166, episode steps: 8, reward: 16
+167 False
+168 False
+169 False
+170 False
+171 True
+Episode: 10, total numsteps: 171, episode steps: 5, reward: 33
+172 False
+173 False
+174 False
+175 False
+176 False
+177 False
+178 False
+179 False
+180 False
+181 False
+182 False
+183 True
+Episode: 11, total numsteps: 183, episode steps: 12, reward: -154
+184 False
+185 False
+186 False
+187 False
+188 False
+189 False
+190 False
+191 False
+192 False
+193 False
+194 False
+195 True
+Episode: 12, total numsteps: 195, episode steps: 12, reward: -6
+196 False
+197 False
+198 False
+199 False
+200 False
+201 False
+202 False
+203 False
+204 False
+205 False
+206 False
+207 True
+Episode: 13, total numsteps: 207, episode steps: 12, reward: -126
+208 False
+209 False
+210 False
+211 False
+212 False
+213 False
+214 False
+215 False
+216 False
+217 False
+218 False
+219 False
+220 False
+221 False
+222 True
+Episode: 14, total numsteps: 222, episode steps: 15, reward: -145
+223 False
+224 False
+225 False
+226 False
+227 False
+228 False
+229 False
+230 False
+231 True
+Episode: 15, total numsteps: 231, episode steps: 9, reward: 21
+232 False
+233 False
+234 False
+235 False
+236 False
+237 False
+238 False
+239 False
+240 False
+241 False
+242 False
+243 False
+244 False
+245 False
+246 False
+247 False
+248 False
+249 False
+250 False
+251 False
+252 False
+253 False
+254 True
+Episode: 16, total numsteps: 254, episode steps: 23, reward: -69
+255 False
+256 False
+257 False
+258 False
+259 False
+260 False
+261 False
+262 False
+263 False
+264 False
+265 False
+266 False
+267 False
+268 False
+269 False
+270 False
+271 False
+272 False
+273 False
+274 False
+275 False
+276 False
+277 False
+278 True
+Episode: 17, total numsteps: 278, episode steps: 24, reward: -46
+279 False
+280 False
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 15 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 17 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+281 False
+282 False
+283 False
+284 False
+285 False
+286 False
+287 False
+288 False
+289 False
+290 False
+291 False
+292 False
+293 False
+294 False
+295 False
+296 False
+297 False
+298 False
+299 False
+300 True
+Episode: 18, total numsteps: 300, episode steps: 22, reward: -28
+301 False
+302 False
+303 False
+304 False
+305 False
+306 False
+307 False
+308 False
+309 False
+310 False
+311 False
+312 False
+313 False
+314 False
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 18 that is less than the current step 42. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+315 False
+316 False
+317 False
+318 False
+319 False
+320 False
+321 False
+322 False
+323 False
+324 False
+325 False
+326 False
+327 False
+/home/navin/projects/M2P/Re_M2P/utils_env.py:223: RuntimeWarning: invalid value encountered in divide
+  all_feature_matrix = (all_feature_matrix-mean)/std
+328 False
+> /home/navin/projects/M2P/Re_M2P/model.py(95)sample()
+-> action = dist.sample()  # Sample an action index
+tensor([[248,   0,   4],
+        [248,   1,   4]])
+tensor([[-5.0000e-01,  1.5000e+00, -5.0000e-01, -5.0000e-01,         nan,
+          0.0000e+00, -1.5543e-15,  0.0000e+00, -6.4147e-01,  2.0000e+00,
+          2.0000e+00,  2.0000e+00,  0.0000e+00],
+        [ 1.5000e+00, -5.0000e-01,  1.5000e+00,  1.5000e+00,         nan,
+          2.0000e+00,  2.0000e+00,  2.0000e+00,  1.3585e+00,  0.0000e+00,
+         -4.4409e-16,  7.7716e-16, -1.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00]])
+Traceback (most recent call last):
+  File "agent5_sac.py", line 96, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 63, in update_parameters
+    next_state_action, next_state_log_pi = self.policy.sample(next_state_batch)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 95, in sample
+    action = dist.sample()  # Sample an action index
+UnboundLocalError: local variable 'dist' referenced before assignment
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "agent5_sac.py", line 96, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 63, in update_parameters
+    next_state_action, next_state_log_pi = self.policy.sample(next_state_batch)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 95, in sample
+    action = dist.sample()  # Sample an action index
+UnboundLocalError: local variable 'dist' referenced before assignment

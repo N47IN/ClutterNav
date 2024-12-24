@@ -1,0 +1,61 @@
+len 30
+Episode 0: 0
+len 30
+len 29
+len 28
+len 27
+len 26
+len 25
+len 30
+len 29
+len 28
+len 27
+len 26
+len 25
+len 24
+len 23
+len 22
+len 21
+len 20
+len 19
+len 18
+len 17
+len 16
+len 30
+len 29
+len 28
+len 27
+len 26
+len 25
+len 24
+len 23
+len 22
+len 21
+len 20
+len 19
+len 18
+len 17
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 204, in <module>
+    episode_rewards = mini_batch_train(
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 163, in mini_batch_train
+    next_state, reward, done, _ = env.step(action)
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 163, in step
+    if self._has_settled():
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 396, in _has_settled
+    return all(
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 397, in <genexpr>
+    np.linalg.norm(p.getBaseVelocity(obj_id)[0]) < threshold and
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 204, in <module>
+    episode_rewards = mini_batch_train(
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 163, in mini_batch_train
+    next_state, reward, done, _ = env.step(action)
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 163, in step
+    if self._has_settled():
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 396, in _has_settled
+    return all(
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 397, in <genexpr>
+    np.linalg.norm(p.getBaseVelocity(obj_id)[0]) < threshold and
+KeyboardInterrupt

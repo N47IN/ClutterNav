@@ -1,0 +1,16 @@
+{"time":"2024-12-23T12:04:26.25113316+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-23T12:04:26.251149293+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241223_120426-3w49zxi1/logs/debug-core.log"}
+{"time":"2024-12-23T12:04:26.672700267+05:30","level":"INFO","msg":"created new stream","id":"3w49zxi1"}
+{"time":"2024-12-23T12:04:26.672775137+05:30","level":"INFO","msg":"stream: started","id":"3w49zxi1"}
+{"time":"2024-12-23T12:04:26.673039836+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"3w49zxi1"}
+{"time":"2024-12-23T12:04:26.673087119+05:30","level":"INFO","msg":"handler: started","stream_id":"3w49zxi1"}
+{"time":"2024-12-23T12:04:26.673177354+05:30","level":"INFO","msg":"sender: started","stream_id":"3w49zxi1"}
+{"time":"2024-12-23T12:04:27.271249226+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T12:04:33.873886564+05:30","level":"INFO","msg":"stream: closing","id":"3w49zxi1"}
+{"time":"2024-12-23T12:04:33.873922742+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T12:04:33.874328241+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T12:04:35.351361606+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T12:04:35.96551755+05:30","level":"INFO","msg":"handler: closed","stream_id":"3w49zxi1"}
+{"time":"2024-12-23T12:04:35.965618332+05:30","level":"INFO","msg":"sender: closed","stream_id":"3w49zxi1"}
+{"time":"2024-12-23T12:04:35.965593468+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"3w49zxi1"}
+{"time":"2024-12-23T12:04:35.965806205+05:30","level":"INFO","msg":"stream: closed","id":"3w49zxi1"}

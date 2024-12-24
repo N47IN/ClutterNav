@@ -1,0 +1,23 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: 13
+Traceback (most recent call last):
+  File "agent5_sac.py", line 94, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 54, in update_parameters
+    state_batch, action_batch, reward_batch, next_state_batch, mask_batch = memory.sample(batch_size=batch_size)
+  File "/home/navin/projects/M2P/Re_M2P/replay_memory.py", line 18, in sample
+    batch = random.sample(self.buffer, batch_size)
+  File "/usr/lib/python3.8/random.py", line 363, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "agent5_sac.py", line 94, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 54, in update_parameters
+    state_batch, action_batch, reward_batch, next_state_batch, mask_batch = memory.sample(batch_size=batch_size)
+  File "/home/navin/projects/M2P/Re_M2P/replay_memory.py", line 18, in sample
+    batch = random.sample(self.buffer, batch_size)
+  File "/usr/lib/python3.8/random.py", line 363, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative

@@ -1,0 +1,16 @@
+{"time":"2024-12-23T12:04:50.791095104+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-23T12:04:50.791119967+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241223_120450-morkwcoe/logs/debug-core.log"}
+{"time":"2024-12-23T12:04:51.200999034+05:30","level":"INFO","msg":"created new stream","id":"morkwcoe"}
+{"time":"2024-12-23T12:04:51.201126355+05:30","level":"INFO","msg":"stream: started","id":"morkwcoe"}
+{"time":"2024-12-23T12:04:51.201127752+05:30","level":"INFO","msg":"sender: started","stream_id":"morkwcoe"}
+{"time":"2024-12-23T12:04:51.201126355+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"morkwcoe"}
+{"time":"2024-12-23T12:04:51.201216311+05:30","level":"INFO","msg":"handler: started","stream_id":"morkwcoe"}
+{"time":"2024-12-23T12:04:51.783241406+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T12:05:07.966608068+05:30","level":"INFO","msg":"stream: closing","id":"morkwcoe"}
+{"time":"2024-12-23T12:05:07.966640544+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T12:05:07.967080615+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T12:05:09.243049042+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T12:05:09.836186265+05:30","level":"INFO","msg":"handler: closed","stream_id":"morkwcoe"}
+{"time":"2024-12-23T12:05:09.836226354+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"morkwcoe"}
+{"time":"2024-12-23T12:05:09.836264907+05:30","level":"INFO","msg":"sender: closed","stream_id":"morkwcoe"}
+{"time":"2024-12-23T12:05:09.836302551+05:30","level":"INFO","msg":"stream: closed","id":"morkwcoe"}

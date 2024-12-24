@@ -1,0 +1,37 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: -180
+Episode: 2, total numsteps: 42, episode steps: 26, reward: -340
+Episode: 3, total numsteps: 58, episode steps: 16, reward: -265
+Episode: 4, total numsteps: 84, episode steps: 26, reward: -465
+Episode: 5, total numsteps: 87, episode steps: 3, reward: -55
+Episode: 6, total numsteps: 109, episode steps: 22, reward: -450
+Episode: 7, total numsteps: 122, episode steps: 13, reward: -205
+Episode: 8, total numsteps: 145, episode steps: 23, reward: -360
+Episode: 9, total numsteps: 159, episode steps: 14, reward: -285
+Episode: 10, total numsteps: 173, episode steps: 14, reward: -280
+Episode: 11, total numsteps: 178, episode steps: 5, reward: -125
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_sac.py", line 96, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 64, in update_parameters
+    qf1_next_target, qf2_next_target = self.critic_target(next_state_batch, next_state_action)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 56, in forward
+    xu = torch.cat([state, action], dim=1)
+RuntimeError: Tensors must have same number of dimensions: got 2 and 1
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_sac.py", line 96, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 64, in update_parameters
+    qf1_next_target, qf2_next_target = self.critic_target(next_state_batch, next_state_action)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 56, in forward
+    xu = torch.cat([state, action], dim=1)
+RuntimeError: Tensors must have same number of dimensions: got 2 and 1

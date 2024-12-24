@@ -1,0 +1,26 @@
+Episode 0: -205
+Episode 1: -195
+Episode 2: -335
+Episode 3: -235
+Episode 4: -130
+Episode 5: -200
+Episode 6: -305
+Episode 7: -155
+Episode 8: -300
+Episode 9: -305
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 201, in <module>
+    episode_rewards = mini_batch_train(
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 160, in mini_batch_train
+    next_state, reward, done, _ = env.step(action)
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 151, in step
+    p.stepSimulation()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 201, in <module>
+    episode_rewards = mini_batch_train(
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 160, in mini_batch_train
+    next_state, reward, done, _ = env.step(action)
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 151, in step
+    p.stepSimulation()
+KeyboardInterrupt

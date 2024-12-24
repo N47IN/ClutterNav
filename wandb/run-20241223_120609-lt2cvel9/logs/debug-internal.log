@@ -1,0 +1,16 @@
+{"time":"2024-12-23T12:06:09.544345203+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-23T12:06:09.544367692+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241223_120609-lt2cvel9/logs/debug-core.log"}
+{"time":"2024-12-23T12:06:09.951754466+05:30","level":"INFO","msg":"created new stream","id":"lt2cvel9"}
+{"time":"2024-12-23T12:06:09.951859927+05:30","level":"INFO","msg":"stream: started","id":"lt2cvel9"}
+{"time":"2024-12-23T12:06:09.951852453+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lt2cvel9"}
+{"time":"2024-12-23T12:06:09.951932841+05:30","level":"INFO","msg":"sender: started","stream_id":"lt2cvel9"}
+{"time":"2024-12-23T12:06:09.9520258+05:30","level":"INFO","msg":"handler: started","stream_id":"lt2cvel9"}
+{"time":"2024-12-23T12:06:10.539816589+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T12:06:48.627994461+05:30","level":"INFO","msg":"stream: closing","id":"lt2cvel9"}
+{"time":"2024-12-23T12:06:48.628036785+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T12:06:48.628666546+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T12:06:49.850292301+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T12:06:50.523730944+05:30","level":"INFO","msg":"handler: closed","stream_id":"lt2cvel9"}
+{"time":"2024-12-23T12:06:50.523777109+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lt2cvel9"}
+{"time":"2024-12-23T12:06:50.523823693+05:30","level":"INFO","msg":"sender: closed","stream_id":"lt2cvel9"}
+{"time":"2024-12-23T12:06:50.524053681+05:30","level":"INFO","msg":"stream: closed","id":"lt2cvel9"}

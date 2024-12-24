@@ -1,0 +1,1 @@
+{"loss/policy":NaN,"entropy_temperature/alpha":0.20000000298023224,"loss/entropy_loss":0,"_wandb":{"runtime":467},"reward/train":-43,"_step":1129,"loss/critic_2":NaN,"_timestamp":1.7348126838527288e+09,"loss/critic_1":NaN,"_runtime":467.913193012}

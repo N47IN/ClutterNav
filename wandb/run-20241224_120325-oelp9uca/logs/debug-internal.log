@@ -1,0 +1,16 @@
+{"time":"2024-12-24T12:03:25.967536009+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-24T12:03:25.96756248+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241224_120325-oelp9uca/logs/debug-core.log"}
+{"time":"2024-12-24T12:03:26.397268294+05:30","level":"INFO","msg":"created new stream","id":"oelp9uca"}
+{"time":"2024-12-24T12:03:26.397350498+05:30","level":"INFO","msg":"stream: started","id":"oelp9uca"}
+{"time":"2024-12-24T12:03:26.397431026+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"oelp9uca"}
+{"time":"2024-12-24T12:03:26.397469718+05:30","level":"INFO","msg":"sender: started","stream_id":"oelp9uca"}
+{"time":"2024-12-24T12:03:26.397707948+05:30","level":"INFO","msg":"handler: started","stream_id":"oelp9uca"}
+{"time":"2024-12-24T12:03:27.003159959+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-24T12:03:46.704085517+05:30","level":"INFO","msg":"stream: closing","id":"oelp9uca"}
+{"time":"2024-12-24T12:03:46.70412386+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-24T12:03:46.704571755+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-24T12:03:47.861793707+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-24T12:03:48.47399179+05:30","level":"INFO","msg":"handler: closed","stream_id":"oelp9uca"}
+{"time":"2024-12-24T12:03:48.474022311+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"oelp9uca"}
+{"time":"2024-12-24T12:03:48.474090896+05:30","level":"INFO","msg":"sender: closed","stream_id":"oelp9uca"}
+{"time":"2024-12-24T12:03:48.474301469+05:30","level":"INFO","msg":"stream: closed","id":"oelp9uca"}

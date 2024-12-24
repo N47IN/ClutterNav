@@ -1,0 +1,16 @@
+{"time":"2024-12-23T12:01:31.08914293+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-23T12:01:31.089160949+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241223_120131-qtliu84y/logs/debug-core.log"}
+{"time":"2024-12-23T12:01:31.516197831+05:30","level":"INFO","msg":"created new stream","id":"qtliu84y"}
+{"time":"2024-12-23T12:01:31.516265926+05:30","level":"INFO","msg":"stream: started","id":"qtliu84y"}
+{"time":"2024-12-23T12:01:31.516344009+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qtliu84y"}
+{"time":"2024-12-23T12:01:31.516767737+05:30","level":"INFO","msg":"handler: started","stream_id":"qtliu84y"}
+{"time":"2024-12-23T12:01:31.516770112+05:30","level":"INFO","msg":"sender: started","stream_id":"qtliu84y"}
+{"time":"2024-12-23T12:01:32.118506357+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T12:02:12.356968713+05:30","level":"INFO","msg":"stream: closing","id":"qtliu84y"}
+{"time":"2024-12-23T12:02:12.35700496+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T12:02:12.357547629+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T12:02:13.605817277+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T12:02:14.13862383+05:30","level":"INFO","msg":"handler: closed","stream_id":"qtliu84y"}
+{"time":"2024-12-23T12:02:14.138697582+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qtliu84y"}
+{"time":"2024-12-23T12:02:14.138719582+05:30","level":"INFO","msg":"sender: closed","stream_id":"qtliu84y"}
+{"time":"2024-12-23T12:02:14.138910808+05:30","level":"INFO","msg":"stream: closed","id":"qtliu84y"}

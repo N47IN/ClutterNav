@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 55, in forward
+    qvals = self.layer3(self.layer2(self.layer1(x)))
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (30x13 and 390x1024)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 213, in <module>
+    episode_rewards = mini_batch_train(
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 166, in mini_batch_train
+    action = agent.get_action(state)
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 83, in get_action
+    qvals = self.model.forward(state)
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 57, in forward
+    x = x.view(128, 390)
+RuntimeError: shape '[128, 390]' is invalid for input of size 390
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 55, in forward
+    qvals = self.layer3(self.layer2(self.layer1(x)))
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (30x13 and 390x1024)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 213, in <module>
+    episode_rewards = mini_batch_train(
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 166, in mini_batch_train
+    action = agent.get_action(state)
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 83, in get_action
+    qvals = self.model.forward(state)
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 57, in forward
+    x = x.view(128, 390)
+RuntimeError: shape '[128, 390]' is invalid for input of size 390

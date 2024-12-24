@@ -1,0 +1,16 @@
+{"time":"2024-12-24T17:56:49.126617371+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-24T17:56:49.126634202+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241224_175649-itauzofp/logs/debug-core.log"}
+{"time":"2024-12-24T17:56:49.549378343+05:30","level":"INFO","msg":"created new stream","id":"itauzofp"}
+{"time":"2024-12-24T17:56:49.549527589+05:30","level":"INFO","msg":"stream: started","id":"itauzofp"}
+{"time":"2024-12-24T17:56:49.549712591+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"itauzofp"}
+{"time":"2024-12-24T17:56:49.549751212+05:30","level":"INFO","msg":"handler: started","stream_id":"itauzofp"}
+{"time":"2024-12-24T17:56:49.549913377+05:30","level":"INFO","msg":"sender: started","stream_id":"itauzofp"}
+{"time":"2024-12-24T17:56:50.261761013+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-24T17:57:03.237670593+05:30","level":"INFO","msg":"stream: closing","id":"itauzofp"}
+{"time":"2024-12-24T17:57:03.237735473+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-24T17:57:03.238562921+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-24T17:57:04.421649528+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-24T17:57:04.88661413+05:30","level":"INFO","msg":"handler: closed","stream_id":"itauzofp"}
+{"time":"2024-12-24T17:57:04.886651284+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"itauzofp"}
+{"time":"2024-12-24T17:57:04.88668753+05:30","level":"INFO","msg":"sender: closed","stream_id":"itauzofp"}
+{"time":"2024-12-24T17:57:04.886727967+05:30","level":"INFO","msg":"stream: closed","id":"itauzofp"}

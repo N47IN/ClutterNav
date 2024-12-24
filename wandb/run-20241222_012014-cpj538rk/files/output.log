@@ -1,0 +1,78 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: -6
+Episode: 2, total numsteps: 44, episode steps: 28, reward: -42
+Episode: 3, total numsteps: 70, episode steps: 26, reward: -31
+Episode: 4, total numsteps: 83, episode steps: 13, reward: -6
+Episode: 5, total numsteps: 107, episode steps: 24, reward: -47
+Episode: 6, total numsteps: 124, episode steps: 17, reward: -20
+Episode: 7, total numsteps: 149, episode steps: 25, reward: -37
+Episode: 8, total numsteps: 158, episode steps: 9, reward: -56
+Episode: 9, total numsteps: 166, episode steps: 8, reward: -8
+Episode: 10, total numsteps: 171, episode steps: 5, reward: -1
+Episode: 11, total numsteps: 183, episode steps: 12, reward: -96
+Episode: 12, total numsteps: 195, episode steps: 12, reward: -17
+Episode: 13, total numsteps: 207, episode steps: 12, reward: -82
+Episode: 14, total numsteps: 222, episode steps: 15, reward: -90
+Episode: 15, total numsteps: 231, episode steps: 9, reward: -5
+Episode: 16, total numsteps: 254, episode steps: 23, reward: -43
+Episode: 17, total numsteps: 278, episode steps: 24, reward: -31
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 15 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 17 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 18, total numsteps: 300, episode steps: 22, reward: -23
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 18 that is less than the current step 42. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+/home/navin/projects/M2P/Re_M2P/utils_env.py:220: RuntimeWarning: invalid value encountered in divide
+  all_feature_matrix = (all_feature_matrix-mean)/std
+Traceback (most recent call last):
+  File "agent5_sac.py", line 94, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 63, in update_parameters
+    next_state_action, next_state_log_pi = self.policy.sample(next_state_batch)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 91, in sample
+    dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/distributions/categorical.py", line 70, in __init__
+    super().__init__(batch_shape, validate_args=validate_args)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/distributions/distribution.py", line 68, in __init__
+    raise ValueError(
+ValueError: Expected parameter probs (Tensor of shape (256, 30)) of distribution Categorical(probs: torch.Size([256, 30])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[0.0490, 0.0204, 0.0748,  ..., 0.0000, 0.0000, 0.0000],
+        [0.0772, 0.0268, 0.0058,  ..., 0.0000, 0.0000, 0.0000],
+        [0.0271, 0.0249, 0.0239,  ..., 0.0000, 0.0000, 0.0000],
+        ...,
+        [0.2462, 0.0392, 0.3598,  ..., 0.0000, 0.0000, 0.0000],
+        [0.4984, 0.3576, 0.1440,  ..., 0.0000, 0.0000, 0.0000],
+        [0.1282, 0.2194, 0.0525,  ..., 0.0000, 0.0000, 0.0000]])
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "agent5_sac.py", line 94, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 63, in update_parameters
+    next_state_action, next_state_log_pi = self.policy.sample(next_state_batch)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 91, in sample
+    dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/distributions/categorical.py", line 70, in __init__
+    super().__init__(batch_shape, validate_args=validate_args)
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/distributions/distribution.py", line 68, in __init__
+    raise ValueError(
+ValueError: Expected parameter probs (Tensor of shape (256, 30)) of distribution Categorical(probs: torch.Size([256, 30])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[0.0490, 0.0204, 0.0748,  ..., 0.0000, 0.0000, 0.0000],
+        [0.0772, 0.0268, 0.0058,  ..., 0.0000, 0.0000, 0.0000],
+        [0.0271, 0.0249, 0.0239,  ..., 0.0000, 0.0000, 0.0000],
+        ...,
+        [0.2462, 0.0392, 0.3598,  ..., 0.0000, 0.0000, 0.0000],
+        [0.4984, 0.3576, 0.1440,  ..., 0.0000, 0.0000, 0.0000],
+        [0.1282, 0.2194, 0.0525,  ..., 0.0000, 0.0000, 0.0000]])

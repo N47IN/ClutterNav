@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "agent5_sac.py", line 68, in <module>
+    env.reset()
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 56, in reset
+    _, object_features = compute_features_goal(partial, total, self.target)
+  File "/home/navin/projects/M2P/Re_M2P/utils_env.py", line 210, in compute_features_goal
+    if np.asarray(features_list).isnan().any():
+AttributeError: 'numpy.ndarray' object has no attribute 'isnan'
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "agent5_sac.py", line 68, in <module>
+    env.reset()
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 56, in reset
+    _, object_features = compute_features_goal(partial, total, self.target)
+  File "/home/navin/projects/M2P/Re_M2P/utils_env.py", line 210, in compute_features_goal
+    if np.asarray(features_list).isnan().any():
+AttributeError: 'numpy.ndarray' object has no attribute 'isnan'

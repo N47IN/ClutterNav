@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.19.1
+        m: []
+        python_version: 3.8.10
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+                - 55
+                - 105
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 53
+                - 55
+                - 105
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+                - 61
+            "4": 3.8.10
+            "5": 0.19.1
+            "8":
+                - 5
+            "12": 0.19.1
+            "13": linux-x86_64
+alpha:
+    value: 0.2
+automatic_entropy_tuning:
+    value: false
+batch_size:
+    value: 200
+cuda:
+    value: false
+env_name:
+    value: clutter-v2
+eval:
+    value: true
+gamma:
+    value: 0.99
+hidden_size:
+    value: 256
+lr:
+    value: 0.0003
+num_steps:
+    value: 1000001
+policy:
+    value: Gaussian
+replay_size:
+    value: 1500
+seed:
+    value: 123456
+start_steps:
+    value: 300
+target_update_interval:
+    value: 1
+tau:
+    value: 0.005
+updates_per_step:
+    value: 1

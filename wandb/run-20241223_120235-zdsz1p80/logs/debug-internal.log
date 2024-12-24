@@ -1,0 +1,16 @@
+{"time":"2024-12-23T12:02:35.664294952+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-23T12:02:35.664312622+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241223_120235-zdsz1p80/logs/debug-core.log"}
+{"time":"2024-12-23T12:02:36.084573763+05:30","level":"INFO","msg":"created new stream","id":"zdsz1p80"}
+{"time":"2024-12-23T12:02:36.084684741+05:30","level":"INFO","msg":"stream: started","id":"zdsz1p80"}
+{"time":"2024-12-23T12:02:36.084749554+05:30","level":"INFO","msg":"sender: started","stream_id":"zdsz1p80"}
+{"time":"2024-12-23T12:02:36.084826729+05:30","level":"INFO","msg":"handler: started","stream_id":"zdsz1p80"}
+{"time":"2024-12-23T12:02:36.084722456+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zdsz1p80"}
+{"time":"2024-12-23T12:02:36.894439341+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T12:02:52.521103609+05:30","level":"INFO","msg":"stream: closing","id":"zdsz1p80"}
+{"time":"2024-12-23T12:02:52.521139787+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T12:02:52.521569871+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T12:02:54.229775715+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T12:02:54.779026861+05:30","level":"INFO","msg":"handler: closed","stream_id":"zdsz1p80"}
+{"time":"2024-12-23T12:02:54.779092163+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zdsz1p80"}
+{"time":"2024-12-23T12:02:54.77913742+05:30","level":"INFO","msg":"sender: closed","stream_id":"zdsz1p80"}
+{"time":"2024-12-23T12:02:54.779292049+05:30","level":"INFO","msg":"stream: closed","id":"zdsz1p80"}

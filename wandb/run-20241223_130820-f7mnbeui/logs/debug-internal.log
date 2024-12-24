@@ -1,0 +1,16 @@
+{"time":"2024-12-23T13:08:20.09751203+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-23T13:08:20.097541013+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241223_130820-f7mnbeui/logs/debug-core.log"}
+{"time":"2024-12-23T13:08:20.504054018+05:30","level":"INFO","msg":"created new stream","id":"f7mnbeui"}
+{"time":"2024-12-23T13:08:20.504108283+05:30","level":"INFO","msg":"stream: started","id":"f7mnbeui"}
+{"time":"2024-12-23T13:08:20.504124276+05:30","level":"INFO","msg":"sender: started","stream_id":"f7mnbeui"}
+{"time":"2024-12-23T13:08:20.504117641+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"f7mnbeui"}
+{"time":"2024-12-23T13:08:20.504183848+05:30","level":"INFO","msg":"handler: started","stream_id":"f7mnbeui"}
+{"time":"2024-12-23T13:08:20.982988603+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T13:11:25.940237316+05:30","level":"INFO","msg":"stream: closing","id":"f7mnbeui"}
+{"time":"2024-12-23T13:11:25.940283549+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T13:11:25.940939756+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T13:11:27.083028539+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T13:11:27.525969268+05:30","level":"INFO","msg":"handler: closed","stream_id":"f7mnbeui"}
+{"time":"2024-12-23T13:11:27.526021787+05:30","level":"INFO","msg":"sender: closed","stream_id":"f7mnbeui"}
+{"time":"2024-12-23T13:11:27.52601613+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"f7mnbeui"}
+{"time":"2024-12-23T13:11:27.526159719+05:30","level":"INFO","msg":"stream: closed","id":"f7mnbeui"}

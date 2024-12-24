@@ -1,0 +1,16 @@
+{"time":"2024-12-22T21:14:36.709032934+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-22T21:14:36.709050255+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241222_211436-uogogfp0/logs/debug-core.log"}
+{"time":"2024-12-22T21:14:37.117381619+05:30","level":"INFO","msg":"created new stream","id":"uogogfp0"}
+{"time":"2024-12-22T21:14:37.117452787+05:30","level":"INFO","msg":"stream: started","id":"uogogfp0"}
+{"time":"2024-12-22T21:14:37.117644502+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"uogogfp0"}
+{"time":"2024-12-22T21:14:37.117713296+05:30","level":"INFO","msg":"handler: started","stream_id":"uogogfp0"}
+{"time":"2024-12-22T21:14:37.117812541+05:30","level":"INFO","msg":"sender: started","stream_id":"uogogfp0"}
+{"time":"2024-12-22T21:14:37.702940531+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-22T21:14:42.850081216+05:30","level":"INFO","msg":"stream: closing","id":"uogogfp0"}
+{"time":"2024-12-22T21:14:42.850130454+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-22T21:14:42.850598602+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-22T21:14:44.167102598+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-22T21:14:44.713039952+05:30","level":"INFO","msg":"handler: closed","stream_id":"uogogfp0"}
+{"time":"2024-12-22T21:14:44.713091984+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"uogogfp0"}
+{"time":"2024-12-22T21:14:44.713112587+05:30","level":"INFO","msg":"sender: closed","stream_id":"uogogfp0"}
+{"time":"2024-12-22T21:14:44.713234181+05:30","level":"INFO","msg":"stream: closed","id":"uogogfp0"}

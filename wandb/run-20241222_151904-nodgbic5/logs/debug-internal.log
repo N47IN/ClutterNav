@@ -1,0 +1,35 @@
+{"time":"2024-12-22T15:19:04.408690123+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-22T15:19:04.408707304+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241222_151904-nodgbic5/logs/debug-core.log"}
+{"time":"2024-12-22T15:19:04.830639818+05:30","level":"INFO","msg":"created new stream","id":"nodgbic5"}
+{"time":"2024-12-22T15:19:04.830720836+05:30","level":"INFO","msg":"stream: started","id":"nodgbic5"}
+{"time":"2024-12-22T15:19:04.83077713+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nodgbic5"}
+{"time":"2024-12-22T15:19:04.83077713+05:30","level":"INFO","msg":"handler: started","stream_id":"nodgbic5"}
+{"time":"2024-12-22T15:19:04.830813308+05:30","level":"INFO","msg":"sender: started","stream_id":"nodgbic5"}
+{"time":"2024-12-22T15:19:05.465704057+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-22T15:20:21.062141564+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":0,"current":16}
+{"time":"2024-12-22T15:20:21.24351053+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":1,"current":16}
+{"time":"2024-12-22T15:20:21.548610763+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":2,"current":16}
+{"time":"2024-12-22T15:20:21.694008636+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":3,"current":16}
+{"time":"2024-12-22T15:20:21.774849147+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":4,"current":16}
+{"time":"2024-12-22T15:20:21.904414293+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":16}
+{"time":"2024-12-22T15:20:22.239572541+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":6,"current":16}
+{"time":"2024-12-22T15:20:22.558054285+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":7,"current":16}
+{"time":"2024-12-22T15:20:22.704080474+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":8,"current":16}
+{"time":"2024-12-22T15:20:22.89244384+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":9,"current":16}
+{"time":"2024-12-22T15:20:23.059521176+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":16}
+{"time":"2024-12-22T15:20:23.181187459+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":11,"current":16}
+{"time":"2024-12-22T15:20:23.444027144+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":12,"current":16}
+{"time":"2024-12-22T15:20:23.637759027+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":13,"current":16}
+{"time":"2024-12-22T15:20:23.847987081+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":14,"current":16}
+{"time":"2024-12-22T15:20:24.077340073+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":16}
+{"time":"2024-12-22T15:20:25.466452842+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":17,"current":20}
+{"time":"2024-12-22T15:20:31.563200957+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":18,"current":42}
+{"time":"2024-12-22T15:20:39.599180362+05:30","level":"WARN","msg":"handler: ignoring partial history record","step":19,"current":71}
+{"time":"2024-12-22T15:20:40.120861795+05:30","level":"INFO","msg":"stream: closing","id":"nodgbic5"}
+{"time":"2024-12-22T15:20:40.120889942+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-22T15:20:40.121309841+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-22T15:20:41.38729765+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-22T15:20:41.937714851+05:30","level":"INFO","msg":"handler: closed","stream_id":"nodgbic5"}
+{"time":"2024-12-22T15:20:41.937780154+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nodgbic5"}
+{"time":"2024-12-22T15:20:41.937792447+05:30","level":"INFO","msg":"sender: closed","stream_id":"nodgbic5"}
+{"time":"2024-12-22T15:20:41.937944566+05:30","level":"INFO","msg":"stream: closed","id":"nodgbic5"}

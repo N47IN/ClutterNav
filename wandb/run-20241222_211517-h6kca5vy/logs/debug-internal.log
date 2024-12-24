@@ -1,0 +1,16 @@
+{"time":"2024-12-22T21:15:17.218697732+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-22T21:15:17.218714983+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241222_211517-h6kca5vy/logs/debug-core.log"}
+{"time":"2024-12-22T21:15:17.648255782+05:30","level":"INFO","msg":"created new stream","id":"h6kca5vy"}
+{"time":"2024-12-22T21:15:17.648338265+05:30","level":"INFO","msg":"stream: started","id":"h6kca5vy"}
+{"time":"2024-12-22T21:15:17.64849038+05:30","level":"INFO","msg":"sender: started","stream_id":"h6kca5vy"}
+{"time":"2024-12-22T21:15:17.64842864+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"h6kca5vy"}
+{"time":"2024-12-22T21:15:17.648613511+05:30","level":"INFO","msg":"handler: started","stream_id":"h6kca5vy"}
+{"time":"2024-12-22T21:15:18.27457573+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-22T21:15:44.582129726+05:30","level":"INFO","msg":"stream: closing","id":"h6kca5vy"}
+{"time":"2024-12-22T21:15:44.582186018+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-22T21:15:44.582922148+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-22T21:15:45.991258136+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-22T21:15:46.570677365+05:30","level":"INFO","msg":"handler: closed","stream_id":"h6kca5vy"}
+{"time":"2024-12-22T21:15:46.570785829+05:30","level":"INFO","msg":"sender: closed","stream_id":"h6kca5vy"}
+{"time":"2024-12-22T21:15:46.570779543+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"h6kca5vy"}
+{"time":"2024-12-22T21:15:46.570974261+05:30","level":"INFO","msg":"stream: closed","id":"h6kca5vy"}

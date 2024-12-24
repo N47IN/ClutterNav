@@ -1,0 +1,71 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: -101
+Episode: 2, total numsteps: 41, episode steps: 25, reward: -167
+Episode: 3, total numsteps: 43, episode steps: 2, reward: 80
+Episode: 4, total numsteps: 68, episode steps: 25, reward: -187
+Episode: 5, total numsteps: 90, episode steps: 22, reward: -34
+Episode: 6, total numsteps: 114, episode steps: 24, reward: -48
+Episode: 7, total numsteps: 132, episode steps: 18, reward: -20
+Episode: 8, total numsteps: 157, episode steps: 25, reward: -171
+Episode: 9, total numsteps: 181, episode steps: 24, reward: -46
+Episode: 10, total numsteps: 203, episode steps: 22, reward: -26
+Episode: 11, total numsteps: 228, episode steps: 25, reward: -163
+Episode: 12, total numsteps: 238, episode steps: 10, reward: 14
+Episode: 13, total numsteps: 240, episode steps: 2, reward: 50
+Episode: 14, total numsteps: 247, episode steps: 7, reward: -103
+Episode: 15, total numsteps: 272, episode steps: 25, reward: -177
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 16, total numsteps: 285, episode steps: 13, reward: 15
+Episode: 17, total numsteps: 294, episode steps: 9, reward: 7
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 16 that is less than the current step 27. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 17 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 18, total numsteps: 314, episode steps: 20, reward: -64
+Episode: 19, total numsteps: 327, episode steps: 13, reward: 7
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 18 that is less than the current step 56. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 19 that is less than the current step 69. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 20, total numsteps: 352, episode steps: 25, reward: -191
+Episode: 21, total numsteps: 369, episode steps: 17, reward: -25
+Episode: 22, total numsteps: 375, episode steps: 6, reward: 36
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 20 that is less than the current step 94. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 21 that is less than the current step 111. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 22 that is less than the current step 117. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 23, total numsteps: 391, episode steps: 16, reward: -50
+Episode: 24, total numsteps: 402, episode steps: 11, reward: 7
+Episode: 25, total numsteps: 408, episode steps: 6, reward: 32
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 23 that is less than the current step 133. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 24 that is less than the current step 144. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 25 that is less than the current step 150. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 26, total numsteps: 425, episode steps: 17, reward: -57
+Episode: 27, total numsteps: 446, episode steps: 21, reward: -37
+Traceback (most recent call last):
+  File "agent5_sac.py", line 96, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 86, in update_parameters
+    policy_loss.backward()
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "agent5_sac.py", line 96, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 86, in update_parameters
+    policy_loss.backward()
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/home/navin/.local/lib/python3.8/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

@@ -1,0 +1,30 @@
+Episode: 1, total numsteps: 5, episode steps: 5, reward: -14
+Episode: 2, total numsteps: 11, episode steps: 6, reward: -40
+Episode: 3, total numsteps: 14, episode steps: 3, reward: -27
+Episode: 4, total numsteps: 20, episode steps: 6, reward: -41
+Episode: 5, total numsteps: 25, episode steps: 5, reward: -39
+Episode: 6, total numsteps: 26, episode steps: 1, reward: -11
+Episode: 7, total numsteps: 30, episode steps: 4, reward: -33
+Episode: 8, total numsteps: 36, episode steps: 6, reward: -43
+Episode: 9, total numsteps: 40, episode steps: 4, reward: -35
+Episode: 10, total numsteps: 44, episode steps: 4, reward: -32
+Episode: 11, total numsteps: 50, episode steps: 6, reward: -40
+Episode: 12, total numsteps: 56, episode steps: 6, reward: -41
+Episode: 13, total numsteps: 62, episode steps: 6, reward: -39
+Episode: 14, total numsteps: 64, episode steps: 2, reward: -19
+Traceback (most recent call last):
+  File "agent5_sac.py", line 83, in <module>
+    state = env.reset()
+  File "/home/navin/projects/M2P/Re_M2P/cluttere_v8.py", line 52, in reset
+    self.spawn_cluttered_cuboids(num_cuboids)
+  File "/home/navin/projects/M2P/Re_M2P/cluttere_v8.py", line 85, in spawn_cluttered_cuboids
+    body_id = p.createMultiBody(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "agent5_sac.py", line 83, in <module>
+    state = env.reset()
+  File "/home/navin/projects/M2P/Re_M2P/cluttere_v8.py", line 52, in reset
+    self.spawn_cluttered_cuboids(num_cuboids)
+  File "/home/navin/projects/M2P/Re_M2P/cluttere_v8.py", line 85, in spawn_cluttered_cuboids
+    body_id = p.createMultiBody(
+KeyboardInterrupt

@@ -1,0 +1,16 @@
+{"time":"2024-12-24T21:20:06.12686244+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-24T21:20:06.126884021+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241224_212006-9o6os4u4/logs/debug-core.log"}
+{"time":"2024-12-24T21:20:06.542760744+05:30","level":"INFO","msg":"created new stream","id":"9o6os4u4"}
+{"time":"2024-12-24T21:20:06.542846369+05:30","level":"INFO","msg":"stream: started","id":"9o6os4u4"}
+{"time":"2024-12-24T21:20:06.542866273+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"9o6os4u4"}
+{"time":"2024-12-24T21:20:06.542958323+05:30","level":"INFO","msg":"handler: started","stream_id":"9o6os4u4"}
+{"time":"2024-12-24T21:20:06.542885409+05:30","level":"INFO","msg":"sender: started","stream_id":"9o6os4u4"}
+{"time":"2024-12-24T21:20:07.11559751+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-24T21:20:08.629000047+05:30","level":"INFO","msg":"stream: closing","id":"9o6os4u4"}
+{"time":"2024-12-24T21:20:08.629048586+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-24T21:20:08.62963839+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-24T21:20:09.837077076+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-24T21:20:10.270415889+05:30","level":"INFO","msg":"handler: closed","stream_id":"9o6os4u4"}
+{"time":"2024-12-24T21:20:10.270455768+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"9o6os4u4"}
+{"time":"2024-12-24T21:20:10.270480981+05:30","level":"INFO","msg":"sender: closed","stream_id":"9o6os4u4"}
+{"time":"2024-12-24T21:20:10.270501444+05:30","level":"INFO","msg":"stream: closed","id":"9o6os4u4"}

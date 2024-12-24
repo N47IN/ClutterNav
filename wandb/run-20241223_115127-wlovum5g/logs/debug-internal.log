@@ -1,0 +1,16 @@
+{"time":"2024-12-23T11:51:27.671588623+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-23T11:51:27.671605385+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241223_115127-wlovum5g/logs/debug-core.log"}
+{"time":"2024-12-23T11:51:28.099856251+05:30","level":"INFO","msg":"created new stream","id":"wlovum5g"}
+{"time":"2024-12-23T11:51:28.099966321+05:30","level":"INFO","msg":"stream: started","id":"wlovum5g"}
+{"time":"2024-12-23T11:51:28.100184855+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wlovum5g"}
+{"time":"2024-12-23T11:51:28.100413586+05:30","level":"INFO","msg":"handler: started","stream_id":"wlovum5g"}
+{"time":"2024-12-23T11:51:28.100423713+05:30","level":"INFO","msg":"sender: started","stream_id":"wlovum5g"}
+{"time":"2024-12-23T11:51:28.799627993+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T11:51:30.755663367+05:30","level":"INFO","msg":"stream: closing","id":"wlovum5g"}
+{"time":"2024-12-23T11:51:30.75597479+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T11:51:30.756491757+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T11:51:32.993699191+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T11:51:33.469550861+05:30","level":"INFO","msg":"handler: closed","stream_id":"wlovum5g"}
+{"time":"2024-12-23T11:51:33.469629922+05:30","level":"INFO","msg":"sender: closed","stream_id":"wlovum5g"}
+{"time":"2024-12-23T11:51:33.469622239+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wlovum5g"}
+{"time":"2024-12-23T11:51:33.469861307+05:30","level":"INFO","msg":"stream: closed","id":"wlovum5g"}

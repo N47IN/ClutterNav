@@ -1,0 +1,53 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: -91.36
+/home/navin/projects/M2P/Re_M2P/utils_env.py:32: RuntimeWarning: invalid value encountered in divide
+  normalized_features[obj_id] = (np.array(feature_list) - min_vals) / range_vals
+> /home/navin/projects/M2P/Re_M2P/model.py(95)sample()
+-> action = dist.sample()  # Sample an action index
+tensor([[[ 0.4002,  0.2755, -0.4246,    -inf,  0.0000],
+         [ 0.4131,  0.3763, -0.4458,    -inf,  0.0000],
+         [ 0.5832,  0.4812, -0.4298,    -inf,  0.0000],
+         [ 0.6047,  0.6350, -0.4305,    -inf,  0.0000],
+         [ 0.2878,  0.5650, -0.4407,    -inf,  0.0000],
+         [ 0.3085,  0.3727, -0.4298,    -inf,  0.0000],
+         [ 0.1551,  0.5296, -0.4333,    -inf,  0.0000],
+         [ 0.6115,  0.5357, -0.4821,    -inf,  0.0000],
+         [ 0.4058,  0.6252, -0.4333,    -inf,  0.0000],
+         [ 0.6836,  0.4288, -0.4287,    -inf, -1.0000],
+         [ 0.4451,  0.1470, -0.4426,    -inf,  0.0000],
+         [ 0.4003,  0.2887, -0.5111,    -inf,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000]]])
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_sac.py", line 136, in <module>
+    action = agent.select_action(state, evaluate=True)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 49, in select_action
+    action, log_prob = self.policy.sample(state)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 95, in sample
+    action = dist.sample()  # Sample an action index
+UnboundLocalError: local variable 'dist' referenced before assignment
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_sac.py", line 136, in <module>
+    action = agent.select_action(state, evaluate=True)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 49, in select_action
+    action, log_prob = self.policy.sample(state)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 95, in sample
+    action = dist.sample()  # Sample an action index
+UnboundLocalError: local variable 'dist' referenced before assignment

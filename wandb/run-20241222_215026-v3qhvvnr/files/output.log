@@ -1,0 +1,238 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: 13
+Episode: 2, total numsteps: 44, episode steps: 28, reward: -72
+Episode: 3, total numsteps: 70, episode steps: 26, reward: -48
+Episode: 4, total numsteps: 83, episode steps: 13, reward: 15
+Episode: 5, total numsteps: 107, episode steps: 24, reward: -78
+Episode: 6, total numsteps: 124, episode steps: 17, reward: -17
+Episode: 7, total numsteps: 149, episode steps: 25, reward: -59
+Episode: 8, total numsteps: 158, episode steps: 9, reward: -71
+Episode: 9, total numsteps: 166, episode steps: 8, reward: 16
+Episode: 10, total numsteps: 171, episode steps: 5, reward: 33
+Episode: 11, total numsteps: 183, episode steps: 12, reward: -154
+Episode: 12, total numsteps: 195, episode steps: 12, reward: -6
+Episode: 13, total numsteps: 207, episode steps: 12, reward: -126
+Episode: 14, total numsteps: 222, episode steps: 15, reward: -145
+Episode: 15, total numsteps: 231, episode steps: 9, reward: 21
+Episode: 16, total numsteps: 254, episode steps: 23, reward: -69
+Episode: 17, total numsteps: 278, episode steps: 24, reward: -46
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 15 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 17 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 18, total numsteps: 300, episode steps: 22, reward: -28
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 18 that is less than the current step 42. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+/home/navin/projects/M2P/Re_M2P/utils_env.py:223: RuntimeWarning: invalid value encountered in divide
+  all_feature_matrix = (all_feature_matrix-mean)/std
+> /home/navin/projects/M2P/Re_M2P/model.py(95)sample()
+-> action = dist.sample()  # Sample an action index
+tensor([[248,   0,   4],
+        [248,   1,   4]])
+tensor([[[[-5.0000e-01,  1.5000e+00, -5.0000e-01,  ...,  2.0000e+00,
+            2.0000e+00,  0.0000e+00],
+          [ 1.5000e+00, -5.0000e-01,  1.5000e+00,  ..., -4.4409e-16,
+            7.7716e-16, -1.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          ...,
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00]],
+
+         [[-4.6386e-01,  1.2434e-01,  3.1234e-01,  ...,  1.9191e+00,
+            1.8253e+00,  0.0000e+00],
+          [-6.9943e-02,  1.3598e+00,  8.6772e-01,  ...,  1.2346e+00,
+            9.8127e-01,  0.0000e+00],
+          [ 5.9660e-01, -1.5180e-01,  2.5421e-01,  ...,  2.1304e+00,
+            1.8841e+00,  0.0000e+00],
+          ...,
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00]],
+
+         [[-3.2042e-02,  1.9935e+00, -2.9377e-01,  ...,  2.4619e+00,
+            2.1788e+00,  0.0000e+00],
+          [-5.2783e-01,  8.4960e-01,  5.7657e-01,  ...,  1.1599e+00,
+            1.2976e+00,  0.0000e+00],
+          [ 8.4743e-02, -4.9289e-01,  7.1176e-01,  ...,  1.0595e+00,
+            1.2311e+00,  0.0000e+00],
+          ...,
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00]]],
+
+
+        [[[-5.0000e-01,  1.5000e+00, -5.0000e-01,  ...,  2.0000e+00,
+            2.0000e+00,  0.0000e+00],
+          [ 1.5000e+00, -5.0000e-01,  1.5000e+00,  ..., -4.4409e-16,
+            7.7716e-16, -1.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          ...,
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00]],
+
+         [[-1.6221e-01, -2.0306e+00,  7.3698e-01,  ...,  1.0467e+00,
+            7.0990e-01,  0.0000e+00],
+          [ 1.5514e+00,  4.7242e-01,  1.1682e+00,  ..., -2.4054e+00,
+           -2.6836e+00,  0.0000e+00],
+          [ 9.3023e-01,  1.7755e+00,  1.1815e+00,  ...,  9.6214e-01,
+            1.0373e+00,  0.0000e+00],
+          ...,
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00]],
+
+         [[-3.2042e-02,  1.9935e+00, -2.9377e-01,  ...,  2.4619e+00,
+            2.1788e+00,  0.0000e+00],
+          [-5.2783e-01,  8.4960e-01,  5.7657e-01,  ...,  1.1599e+00,
+            1.2976e+00,  0.0000e+00],
+          [ 8.4743e-02, -4.9289e-01,  7.1176e-01,  ...,  1.0595e+00,
+            1.2311e+00,  0.0000e+00],
+          ...,
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00],
+          [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  ...,  0.0000e+00,
+            0.0000e+00,  0.0000e+00]]]])
+tensor([[-5.0000e-01,  1.5000e+00, -5.0000e-01, -5.0000e-01,         nan,
+          0.0000e+00, -1.5543e-15,  0.0000e+00, -6.4147e-01,  2.0000e+00,
+          2.0000e+00,  2.0000e+00,  0.0000e+00],
+        [ 1.5000e+00, -5.0000e-01,  1.5000e+00,  1.5000e+00,         nan,
+          2.0000e+00,  2.0000e+00,  2.0000e+00,  1.3585e+00,  0.0000e+00,
+         -4.4409e-16,  7.7716e-16, -1.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00]])
+tensor([[248,   0,   4],
+        [248,   1,   4]])
+tensor([[248,   0,   4],
+        [248,   1,   4]])
+Traceback (most recent call last):
+  File "agent5_sac.py", line 96, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 63, in update_parameters
+    next_state_action, next_state_log_pi = self.policy.sample(next_state_batch)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 95, in sample
+    action = dist.sample()  # Sample an action index
+UnboundLocalError: local variable 'dist' referenced before assignment
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "agent5_sac.py", line 96, in <module>
+    critic_1_loss, critic_2_loss, policy_loss, ent_loss, alpha = agent.update_parameters(memory, args.batch_size, updates)
+  File "/home/navin/projects/M2P/Re_M2P/sac.py", line 63, in update_parameters
+    next_state_action, next_state_log_pi = self.policy.sample(next_state_batch)
+  File "/home/navin/projects/M2P/Re_M2P/model.py", line 95, in sample
+    action = dist.sample()  # Sample an action index
+UnboundLocalError: local variable 'dist' referenced before assignment

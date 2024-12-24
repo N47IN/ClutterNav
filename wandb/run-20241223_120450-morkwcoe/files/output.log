@@ -1,0 +1,80 @@
+len 30
+len 29
+len 28
+len 27
+len 26
+len 25
+len 24
+len 23
+len 22
+Episode 0: -135
+len 30
+len 29
+len 28
+len 27
+len 26
+len 25
+len 24
+len 23
+len 22
+len 21
+len 20
+len 19
+len 18
+len 17
+len 16
+len 15
+len 14
+len 13
+len 12
+len 11
+len 30
+len 29
+len 28
+len 27
+len 26
+len 25
+len 24
+len 23
+len 22
+len 30
+len 29
+len 28
+len 27
+len 26
+len 25
+len 24
+len 23
+len 22
+len 21
+len 20
+len 19
+len 18
+len 17
+len 16
+len 15
+len 14
+len 13
+len 30
+len 29
+len 30
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 205, in <module>
+    episode_rewards = mini_batch_train(
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 163, in mini_batch_train
+    next_state, reward, done, _ = env.step(action)
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 155, in step
+    velocities = {
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 156, in <dictcomp>
+    obj_id: p.getBaseVelocity(obj_id) for obj_id in self.object_ids
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 205, in <module>
+    episode_rewards = mini_batch_train(
+  File "/home/navin/projects/M2P/Re_M2P/agent5_ddqn.py", line 163, in mini_batch_train
+    next_state, reward, done, _ = env.step(action)
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 155, in step
+    velocities = {
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 156, in <dictcomp>
+    obj_id: p.getBaseVelocity(obj_id) for obj_id in self.object_ids
+KeyboardInterrupt

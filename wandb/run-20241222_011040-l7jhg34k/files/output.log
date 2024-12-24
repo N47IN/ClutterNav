@@ -1,0 +1,245 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: -6
+Episode: 2, total numsteps: 44, episode steps: 28, reward: -42
+Episode: 3, total numsteps: 70, episode steps: 26, reward: -31
+Episode: 4, total numsteps: 83, episode steps: 13, reward: -6
+Episode: 5, total numsteps: 107, episode steps: 24, reward: -47
+Episode: 6, total numsteps: 124, episode steps: 17, reward: -20
+Episode: 7, total numsteps: 149, episode steps: 25, reward: -37
+Episode: 8, total numsteps: 158, episode steps: 9, reward: -56
+Episode: 9, total numsteps: 166, episode steps: 8, reward: -8
+Episode: 10, total numsteps: 171, episode steps: 5, reward: -1
+Episode: 11, total numsteps: 183, episode steps: 12, reward: -96
+Episode: 12, total numsteps: 195, episode steps: 12, reward: -17
+Episode: 13, total numsteps: 207, episode steps: 12, reward: -82
+Episode: 14, total numsteps: 222, episode steps: 15, reward: -90
+Episode: 15, total numsteps: 231, episode steps: 9, reward: -5
+Episode: 16, total numsteps: 254, episode steps: 23, reward: -43
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30, 13])
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 15 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+Episode: 17, total numsteps: 278, episode steps: 24, reward: -31
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 17 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+torch.Size([256, 30])
+torch.Size([256, 30])
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution
+Episode: 18, total numsteps: 300, episode steps: 22, reward: -23
+> /home/navin/projects/M2P/Re_M2P/model.py(91)sample()
+-> dist = torch.distributions.Categorical(probs)  # Create a categorical distribution

@@ -1,0 +1,14 @@
+> /home/navin/projects/M2P/Re_M2P/agent5_ddqn.py(55)forward()
+-> qvals = self.layer3(self.layer2(self.layer1(x)))
+torch.Size([390])
+tensor([-0.6667, -0.1331,  1.3739,  ...,  0.2928, -0.8517, -0.8745],
+       grad_fn=<ViewBackward0>)
+tensor([-0.5452, -0.4096,  0.0907,  ..., -0.0352, -0.3804, -0.1326],
+       grad_fn=<ViewBackward0>)
+tensor([-0.3437,  0.0770, -0.1348,  0.2544,  0.3818, -0.0039,  0.0505,  0.1860,
+         0.2353, -0.2665, -0.0949,  0.2601, -0.4849,  0.0518, -0.1940, -0.0235,
+         0.4547,  0.2509,  0.0879,  0.0445,  0.2063,  0.1937, -0.0462,  0.3101,
+         0.0792,  0.0295, -0.3619, -0.0138,  0.3859,  0.1642],
+       grad_fn=<ViewBackward0>)
+--KeyboardInterrupt--
+--KeyboardInterrupt--

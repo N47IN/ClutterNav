@@ -1,0 +1,16 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: 24
+Episode: 2, total numsteps: 44, episode steps: 28, reward: 14
+Episode: 3, total numsteps: 70, episode steps: 26, reward: 21
+Episode: 4, total numsteps: 83, episode steps: 13, reward: 20
+Traceback (most recent call last):
+  File "agent5_sac.py", line 105, in <module>
+    next_state, reward, done, _ = env.step(action)  # Step
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 148, in step
+    p.stepSimulation()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "agent5_sac.py", line 105, in <module>
+    next_state, reward, done, _ = env.step(action)  # Step
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 148, in step
+    p.stepSimulation()
+KeyboardInterrupt

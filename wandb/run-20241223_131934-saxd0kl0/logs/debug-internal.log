@@ -1,0 +1,16 @@
+{"time":"2024-12-23T13:19:34.385327474+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-23T13:19:34.385356808+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241223_131934-saxd0kl0/logs/debug-core.log"}
+{"time":"2024-12-23T13:19:34.81583232+05:30","level":"INFO","msg":"created new stream","id":"saxd0kl0"}
+{"time":"2024-12-23T13:19:34.815927097+05:30","level":"INFO","msg":"stream: started","id":"saxd0kl0"}
+{"time":"2024-12-23T13:19:34.815977943+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"saxd0kl0"}
+{"time":"2024-12-23T13:19:34.816031862+05:30","level":"INFO","msg":"handler: started","stream_id":"saxd0kl0"}
+{"time":"2024-12-23T13:19:34.816181395+05:30","level":"INFO","msg":"sender: started","stream_id":"saxd0kl0"}
+{"time":"2024-12-23T13:19:35.354386018+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T13:20:30.455445339+05:30","level":"INFO","msg":"stream: closing","id":"saxd0kl0"}
+{"time":"2024-12-23T13:20:30.455479701+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T13:20:30.455889747+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T13:20:31.656791567+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T13:20:32.132167868+05:30","level":"INFO","msg":"handler: closed","stream_id":"saxd0kl0"}
+{"time":"2024-12-23T13:20:32.132226047+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"saxd0kl0"}
+{"time":"2024-12-23T13:20:32.132272283+05:30","level":"INFO","msg":"sender: closed","stream_id":"saxd0kl0"}
+{"time":"2024-12-23T13:20:32.132435225+05:30","level":"INFO","msg":"stream: closed","id":"saxd0kl0"}

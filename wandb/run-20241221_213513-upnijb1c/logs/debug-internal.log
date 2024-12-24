@@ -1,0 +1,16 @@
+{"time":"2024-12-21T21:35:13.75307188+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-21T21:35:13.753093391+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241221_213513-upnijb1c/logs/debug-core.log"}
+{"time":"2024-12-21T21:35:14.161705522+05:30","level":"INFO","msg":"created new stream","id":"upnijb1c"}
+{"time":"2024-12-21T21:35:14.161838569+05:30","level":"INFO","msg":"stream: started","id":"upnijb1c"}
+{"time":"2024-12-21T21:35:14.161870486+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"upnijb1c"}
+{"time":"2024-12-21T21:35:14.161920422+05:30","level":"INFO","msg":"sender: started","stream_id":"upnijb1c"}
+{"time":"2024-12-21T21:35:14.161989425+05:30","level":"INFO","msg":"handler: started","stream_id":"upnijb1c"}
+{"time":"2024-12-21T21:35:14.708462502+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-21T21:35:31.546936074+05:30","level":"INFO","msg":"stream: closing","id":"upnijb1c"}
+{"time":"2024-12-21T21:35:31.546965408+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-21T21:35:31.547621282+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-21T21:35:32.730870007+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-21T21:35:33.259994518+05:30","level":"INFO","msg":"handler: closed","stream_id":"upnijb1c"}
+{"time":"2024-12-21T21:35:33.260069038+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"upnijb1c"}
+{"time":"2024-12-21T21:35:33.26007672+05:30","level":"INFO","msg":"sender: closed","stream_id":"upnijb1c"}
+{"time":"2024-12-21T21:35:33.260333176+05:30","level":"INFO","msg":"stream: closed","id":"upnijb1c"}

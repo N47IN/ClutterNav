@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "agent5_sac.py", line 68, in <module>
+    env.reset()
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v5.py", line 54, in reset
+    _, object_features = compute_features(partial, total)
+NameError: name 'compute_features' is not defined
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "agent5_sac.py", line 68, in <module>
+    env.reset()
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v5.py", line 54, in reset
+    _, object_features = compute_features(partial, total)
+NameError: name 'compute_features' is not defined

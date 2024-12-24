@@ -1,0 +1,60 @@
+Episode: 1, total numsteps: 16, episode steps: 16, reward: 13
+Episode: 2, total numsteps: 43, episode steps: 27, reward: -167
+Episode: 3, total numsteps: 58, episode steps: 15, reward: -107
+Episode: 4, total numsteps: 82, episode steps: 24, reward: -82
+Episode: 5, total numsteps: 108, episode steps: 26, reward: -68
+Episode: 6, total numsteps: 119, episode steps: 11, reward: 23
+Episode: 7, total numsteps: 140, episode steps: 21, reward: -57
+Episode: 8, total numsteps: 162, episode steps: 22, reward: -50
+Episode: 9, total numsteps: 179, episode steps: 17, reward: -117
+Episode: 10, total numsteps: 204, episode steps: 25, reward: -197
+Episode: 11, total numsteps: 218, episode steps: 14, reward: -16
+Episode: 12, total numsteps: 224, episode steps: 6, reward: 34
+Episode: 13, total numsteps: 246, episode steps: 22, reward: -106
+Episode: 14, total numsteps: 273, episode steps: 27, reward: -177
+Episode: 15, total numsteps: 278, episode steps: 5, reward: 69
+Episode: 16, total numsteps: 285, episode steps: 7, reward: 15
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 15. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 15 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 16 that is less than the current step 27. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 17, total numsteps: 299, episode steps: 14, reward: -36
+Episode: 18, total numsteps: 301, episode steps: 2, reward: -58
+Episode: 19, total numsteps: 302, episode steps: 1, reward: -69
+Episode: 20, total numsteps: 305, episode steps: 3, reward: -85
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 17 that is less than the current step 41. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 18 that is less than the current step 43. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 19 that is less than the current step 44. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 20 that is less than the current step 47. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 21, total numsteps: 323, episode steps: 18, reward: -52
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 21 that is less than the current step 65. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 22, total numsteps: 350, episode steps: 27, reward: -187
+Episode: 23, total numsteps: 355, episode steps: 5, reward: 69
+Episode: 24, total numsteps: 359, episode steps: 4, reward: 24
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 22 that is less than the current step 92. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 23 that is less than the current step 97. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 24 that is less than the current step 101. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Traceback (most recent call last):
+  File "agent5_sac.py", line 107, in <module>
+    next_state, reward, done, _ = env.step(action)  # Step
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 154, in step
+    p.stepSimulation()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "agent5_sac.py", line 107, in <module>
+    next_state, reward, done, _ = env.step(action)  # Step
+  File "/home/navin/projects/M2P/Re_M2P/cluttered_v7.py", line 154, in step
+    p.stepSimulation()
+KeyboardInterrupt
