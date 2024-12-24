@@ -1,7 +1,0 @@
-> /home/navin/projects/M2P/Re_M2P/utils_env.py(178)compute_features_goal()
--> for obj_id, cloud in segmented_clouds.items():
-25
-> /home/navin/projects/M2P/Re_M2P/utils_env.py(178)compute_features_goal()
--> for obj_id, cloud in segmented_clouds.items():
-> /home/navin/projects/M2P/Re_M2P/utils_env.py(178)compute_features_goal()
--> for obj_id, cloud in segmented_clouds.items():

@@ -1,8 +1,0 @@
-{"time":"2024-12-24T11:42:18.263013823+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
-{"time":"2024-12-24T11:42:18.263043786+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241224_114218-cp65fpta/logs/debug-core.log"}
-{"time":"2024-12-24T11:42:18.690549336+05:30","level":"INFO","msg":"created new stream","id":"cp65fpta"}
-{"time":"2024-12-24T11:42:18.690599484+05:30","level":"INFO","msg":"stream: started","id":"cp65fpta"}
-{"time":"2024-12-24T11:42:18.690602348+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cp65fpta"}
-{"time":"2024-12-24T11:42:18.690630076+05:30","level":"INFO","msg":"sender: started","stream_id":"cp65fpta"}
-{"time":"2024-12-24T11:42:18.690672332+05:30","level":"INFO","msg":"handler: started","stream_id":"cp65fpta"}
-{"time":"2024-12-24T11:42:19.172748789+05:30","level":"INFO","msg":"Starting system monitor"}

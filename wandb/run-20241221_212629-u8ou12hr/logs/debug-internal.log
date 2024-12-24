@@ -1,8 +1,0 @@
-{"time":"2024-12-21T21:26:29.577232906+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
-{"time":"2024-12-21T21:26:29.577250297+05:30","level":"INFO","msg":"created symlink","path":"/home/navin/projects/M2P/Re_M2P/wandb/run-20241221_212629-u8ou12hr/logs/debug-core.log"}
-{"time":"2024-12-21T21:26:29.98516233+05:30","level":"INFO","msg":"created new stream","id":"u8ou12hr"}
-{"time":"2024-12-21T21:26:29.985268558+05:30","level":"INFO","msg":"stream: started","id":"u8ou12hr"}
-{"time":"2024-12-21T21:26:29.985305853+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"u8ou12hr"}
-{"time":"2024-12-21T21:26:29.985367313+05:30","level":"INFO","msg":"sender: started","stream_id":"u8ou12hr"}
-{"time":"2024-12-21T21:26:29.985477382+05:30","level":"INFO","msg":"handler: started","stream_id":"u8ou12hr"}
-{"time":"2024-12-21T21:26:30.589140275+05:30","level":"INFO","msg":"Starting system monitor"}
