@@ -1,1 +1,0 @@
-{"Episode Reward": -11.234480818470004, "Episode": 3200, "_timestamp": 1742516280, "_runtime": 13114, "_step": 38467, "Q Loss": 7.690428733825684, "Goal Encoder Loss": 0.026086485013365746, "Policy Loss": 2.2270233631134033, "Total Steps": 35348, "_wandb": {"runtime": 13115}}
