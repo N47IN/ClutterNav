@@ -1,0 +1,111 @@
+
+Episode 1 | Reward: -28.19 | Steps: 15
+Episode 2 | Reward: -25.19 | Steps: 29
+Episode 3 | Reward: -36.20 | Steps: 44
+Episode 4 | Reward: -23.23 | Steps: 56
+Episode 5 | Reward: -25.36 | Steps: 71
+Episode 6 | Reward: -19.21 | Steps: 80
+Episode 7 | Reward: -18.22 | Steps: 87
+Episode 8 | Reward: -30.18 | Steps: 102
+Episode 9 | Reward: -34.22 | Steps: 117
+Episode 10 | Reward: -20.19 | Steps: 127
+Episode 11 | Reward: -34.18 | Steps: 142
+Episode 12 | Reward: -30.27 | Steps: 157
+Episode 13 | Reward: -16.16 | Steps: 170
+Episode 14 | Reward: -22.18 | Steps: 185
+Episode 15 | Reward: -17.14 | Steps: 199
+Episode 16 | Reward: -28.22 | Steps: 214
+Episode 17 | Reward: -12.24 | Steps: 228
+Episode 18 | Reward: -30.21 | Steps: 243
+Episode 19 | Reward: -26.20 | Steps: 258
+Episode 20 | Reward: -36.24 | Steps: 273
+Episode 21 | Reward: -29.21 | Steps: 288
+Episode 22 | Reward: -8.14 | Steps: 295
+Episode 23 | Reward: -16.20 | Steps: 302
+Episode 24 | Reward: -16.14 | Steps: 309
+Episode 25 | Reward: -21.19 | Steps: 324
+Episode 26 | Reward: -18.22 | Steps: 333
+Episode 27 | Reward: -37.21 | Steps: 348
+Episode 28 | Reward: -21.23 | Steps: 363
+Episode 29 | Reward: -14.16 | Steps: 369
+Episode 30 | Reward: -16.16 | Steps: 384
+Episode 31 | Reward: -26.23 | Steps: 399
+Episode 32 | Reward: -25.12 | Steps: 414
+Episode 33 | Reward: -30.24 | Steps: 429
+Episode 34 | Reward: -18.14 | Steps: 443
+Episode 35 | Reward: -19.19 | Steps: 448
+Episode 36 | Reward: -9.14 | Steps: 452
+Episode 37 | Reward: -20.11 | Steps: 467
+Episode 38 | Reward: -9.19 | Steps: 470
+Episode 39 | Reward: -36.24 | Steps: 485
+Episode 40 | Reward: -33.21 | Steps: 500
+Episode 41 | Reward: -21.18 | Steps: 513
+Episode 42 | Reward: -18.21 | Steps: 520
+Episode 43 | Reward: -13.21 | Steps: 524
+Episode 44 | Reward: -27.18 | Steps: 539
+Episode 45 | Reward: -23.20 | Steps: 554
+Episode 46 | Reward: -25.17 | Steps: 568
+Episode 47 | Reward: -40.35 | Steps: 583
+Episode 48 | Reward: -15.14 | Steps: 587
+Episode 49 | Reward: -35.14 | Steps: 602
+Episode 50 | Reward: -13.21 | Steps: 611
+Episode 51 | Reward: -26.16 | Steps: 626
+Episode 52 | Reward: -25.16 | Steps: 634
+Episode 53 | Reward: -24.20 | Steps: 649
+Episode 54 | Reward: -32.18 | Steps: 664
+Episode 55 | Reward: -17.19 | Steps: 676
+Episode 56 | Reward: -4.27 | Steps: 678
+Episode 57 | Reward: -23.19 | Steps: 692
+Episode 58 | Reward: -9.13 | Steps: 694
+Episode 59 | Reward: -27.19 | Steps: 709
+Episode 60 | Reward: -16.14 | Steps: 719
+Episode 61 | Reward: -13.20 | Steps: 721
+Episode 62 | Reward: -25.25 | Steps: 736
+Episode 63 | Reward: -29.19 | Steps: 751
+Episode 64 | Reward: -12.16 | Steps: 752
+Episode 65 | Reward: -9.14 | Steps: 754
+Episode 66 | Reward: -10.13 | Steps: 760
+Episode 67 | Reward: -30.16 | Steps: 775
+Episode 68 | Reward: -32.22 | Steps: 790
+Episode 69 | Reward: -26.16 | Steps: 805
+Episode 70 | Reward: -26.14 | Steps: 820
+Episode 71 | Reward: -20.41 | Steps: 835
+Episode 72 | Reward: -30.26 | Steps: 850
+Episode 73 | Reward: -16.14 | Steps: 859
+Episode 74 | Reward: -23.19 | Steps: 874
+Episode 75 | Reward: -11.13 | Steps: 880
+Episode 76 | Reward: -23.21 | Steps: 895
+Episode 77 | Reward: -25.29 | Steps: 910
+Episode 78 | Reward: -22.20 | Steps: 920
+Episode 79 | Reward: -17.20 | Steps: 929
+Episode 80 | Reward: -11.14 | Steps: 931
+Episode 81 | Reward: -6.19 | Steps: 942
+Episode 82 | Reward: -20.20 | Steps: 957
+Episode 83 | Reward: -12.16 | Steps: 963
+Episode 84 | Reward: -13.15 | Steps: 965
+Episode 85 | Reward: -35.20 | Steps: 980
+Episode 86 | Reward: -34.27 | Steps: 995
+Episode 87 | Reward: -33.21 | Steps: 1010
+Episode 88 | Reward: -24.19 | Steps: 1025
+Episode 89 | Reward: -26.18 | Steps: 1040
+Episode 90 | Reward: -31.12 | Steps: 1055
+Episode 91 | Reward: -8.16 | Steps: 1058
+Episode 92 | Reward: -11.26 | Steps: 1066
+Episode 93 | Reward: -10.18 | Steps: 1067
+Episode 94 | Reward: -11.14 | Steps: 1076
+Episode 95 | Reward: -20.19 | Steps: 1091
+Episode 96 | Reward: -14.17 | Steps: 1098
+Episode 97 | Reward: -11.12 | Steps: 1100
+Episode 98 | Reward: -29.19 | Steps: 1115
+Episode 99 | Reward: -12.20 | Steps: 1125
+Traceback (most recent call last):
+  File "train_her_goal.py", line 103, in <module>
+    agent.save_checkpoint(suffix=i_episode)
+AttributeError: 'SAC' object has no attribute 'save_checkpoint'
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "train_her_goal.py", line 103, in <module>
+    agent.save_checkpoint(suffix=i_episode)
+AttributeError: 'SAC' object has no attribute 'save_checkpoint'
+Episode 100 | Reward: -19.23 | Steps: 1133

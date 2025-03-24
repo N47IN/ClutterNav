@@ -7,6 +7,7 @@ from model import QNetwork
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from matplotlib import cm
+import random
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -129,26 +130,11 @@ def robust_normalize(scores):
 def adaptive_hybrid_selection(q_values, gradients, positions):
     """Dynamic threshold selection with conflict detection"""
     # Adaptive threshold based on clutter
-    clutter = compute_clutter_density(positions)
-    confidence_threshold = 0.5 * clutter + 0.3
     
-    # Robust normalization
-    q_norm = robust_normalize(np.array(q_values))
     grad_norm = robust_normalize(np.linalg.norm(gradients, axis=1))
-    
-    # Dynamic weighting
-    lambda_val = 0.5 
-    
-    # combined = lambda_val * q_norm + (1 - lambda_val) * 
-    combined = grad_norm + q_norm[:len(env.visible)]
+    q_norm = robust_normalize(np.array(q_values))
+    combined = grad_norm[:len(env.object_ids)] + q_norm
     best_action = np.argmax(combined) 
-    
-    # Conflict detection
-    q_best = np.argmax(q_norm)
-    grad_best = np.argmax(grad_norm)
-    if q_best != grad_best:
-        logger.warning(f"Q-grad conflict: Q#{q_best} vs Grad#{grad_best}")
-        
     return best_action
 
 def get_q(critic, state, env):
@@ -190,33 +176,49 @@ def visualize_signed_gradients(positions, gradients, object_ids, target_index):
 # Main execution flow
 env = ClutteredSceneEnv(headless=False)
 critic = QNetwork(181, 1, 256)
-critic = load_critic(critic, "checkpoints/sac_checkpoint_clutter_100")
+critic = load_critic(critic, "checkpoints_ral_m100/sac_checkpoint_clutter_100")
 episode_reward = 0
-state = env.reset()
 history = {'rewards': [], 'conflicts': []}
 done = False
 
-import pdb;pdb.set_trace()
-while not done:
-    valid_mask = ~np.all(state[:, :3] == 0, axis=1)
-    positions = state[valid_mask][:, :3]
-    obj_ids = [env.object_ids[i] for i in np.where(valid_mask)[0]]
-    target_idx = env.object_ids.index(env.target)
-    
-    # Compute components
-    q_values = get_q(critic, state, env)
-    gradients = signed_integrated_saliency(critic, state, target_idx)
-    
-    # Adaptive selection
-    action_idx = adaptive_hybrid_selection(q_values, gradients[valid_mask], positions)
-    action = env.object_ids[action_idx]
-    
-    # Visualization
-    # visualize_signed_gradients(positions, gradients[valid_mask], obj_ids, target_idx)
-    # visualize_scores_and_gradients(q_values,gradients,env.object_ids,target_idx)
-    # Environment step
-    next_state, reward, done, _ = env.step(action)
-    episode_reward += reward
-    state = next_state
+total_disturbance = []
+num_disturbed = []
+num_removed = []
+
+a = None
+# import pdb;pdb.set_trace()
+for j in range(4):
+    for i in range(100):
+        state = env.reset(mode=1)
+        target_idx = env.object_ids.index(env.target)
+        episode_reward = 0
+        done = False
+        rem=0
+        while not done:
+            valid_mask = ~np.all(state[:, :3] == 0, axis=1)
+            positions = state[valid_mask][:, :3]
+            obj_ids = [env.object_ids[i] for i in np.where(valid_mask)[0]]
+            target_idx = env.object_ids.index(env.target)
+            # q_values = get_q(critic, state, env)
+            # gradients = signed_integrated_saliency(critic, state, target_idx)
+            # action_idx = adaptive_hybrid_selection(q_values, gradients, positions)
+            action = random.choice(env.object_ids)
+            next_state, reward, done, rem= env.step(action)
+            episode_reward += reward
+            state = next_state
+        total_disturbance.append(env.disturbance)
+        num_disturbed.append(env.num_disturbed)
+        num_removed.append(rem)
+        print(env.num_disturbed)
+        print(i,j)
+
+    with open(f'random_eval/greedy_{j}_disturbance.npy', 'wb') as f:
+        np.save(f, np.array(total_disturbance))
+
+    with open(f'random_eval/greedy_{j}_num_disturbed.npy', 'wb') as f:
+        np.save(f, np.array(num_disturbed))
+
+    with open(f'random_eval/greedy_{j}_num_removed.npy', 'wb') as f:
+        np.save(f, np.array(num_removed))
 
 logger.info(f"Final reward: {episode_reward:.2f} | Conflicts: {history['conflicts']}")

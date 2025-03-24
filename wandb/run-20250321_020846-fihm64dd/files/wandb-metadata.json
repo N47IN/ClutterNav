@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.0-124-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2025-03-20T20:38:47.782900",
+    "startedAt": "2025-03-20T20:38:46.046645",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train_her_goal.py",
+    "codePath": "train_her_goal.py",
+    "git": {
+        "remote": "https://github.com/N47IN/ClutterNav.git",
+        "commit": "929a24f27017668563ea584e9ee85cd30629a754"
+    },
+    "email": "n47insriram@gmail.com",
+    "root": "/home/navin/projects/M2P/ClutterGrasp/ClutterNav",
+    "host": "WarMachine",
+    "username": "navin",
+    "executable": "/usr/bin/python3"
+}

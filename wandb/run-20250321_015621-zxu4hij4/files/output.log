@@ -1,0 +1,17 @@
+
+Episode 1 | Reward: -28.19 | Steps: 15
+Episode 2 | Reward: -25.19 | Steps: 29
+Traceback (most recent call last):
+  File "train_her_goal.py", line 65, in <module>
+    action = agent.select_action(torch.tensor(state, dtype=torch.float32).unsqueeze(0), raw_goal)  # Pass raw goal to SAC
+  File "/home/navin/projects/M2P/ClutterGrasp/ClutterNav/sac_her.py", line 46, in select_action
+    encoded_goal = self.goal_encoder(goal_tensor).view(1, 30, -1)
+RuntimeError: shape '[1, 30, -1]' is invalid for input of size 16
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "train_her_goal.py", line 65, in <module>
+    action = agent.select_action(torch.tensor(state, dtype=torch.float32).unsqueeze(0), raw_goal)  # Pass raw goal to SAC
+  File "/home/navin/projects/M2P/ClutterGrasp/ClutterNav/sac_her.py", line 46, in select_action
+    encoded_goal = self.goal_encoder(goal_tensor).view(1, 30, -1)
+RuntimeError: shape '[1, 30, -1]' is invalid for input of size 16

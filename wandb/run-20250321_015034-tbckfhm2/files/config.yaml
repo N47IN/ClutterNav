@@ -1,0 +1,84 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: huggingface
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1742502034
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      3:
+      - 16
+      4: 3.8.10
+      5: 0.12.21
+      8:
+      - 5
+alpha:
+  desc: null
+  value: 0.2
+automatic_entropy_tuning:
+  desc: null
+  value: false
+batch_size:
+  desc: null
+  value: 80
+cuda:
+  desc: null
+  value: false
+env_name:
+  desc: null
+  value: ClutteredScene
+eval:
+  desc: null
+  value: true
+gamma:
+  desc: null
+  value: 0.99
+her_ratio:
+  desc: null
+  value: 0.8
+hidden_size:
+  desc: null
+  value: 1024
+lr:
+  desc: null
+  value: 0.0003
+num_steps:
+  desc: null
+  value: 1000001
+policy:
+  desc: null
+  value: Gaussian
+replay_size:
+  desc: null
+  value: 1500
+seed:
+  desc: null
+  value: 32
+start_steps:
+  desc: null
+  value: 30
+target_update_interval:
+  desc: null
+  value: 1
+tau:
+  desc: null
+  value: 0.005
+updates_per_step:
+  desc: null
+  value: 1
